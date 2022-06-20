@@ -47,32 +47,6 @@ class ViewController: UIViewController {
             
             displayLabel.text = calculatorLogic.setDisplayText(currentDisplayText: displayLabel.text!, numValuePressed: numValue)
             
-//            if calculatorLogic.isFinishedTyping() {
-//
-//                //  We reset the value of the displayLabel
-//
-//                displayLabel.text = numValue
-//                calculatorLogic.currentlyTypingNumber()
-//
-//            } else {
-//                //  If we hit the decimal button
-//                if numValue == "." {
-//                    // we check if the current number displayed is an integer or not
-//
-//                    let isInt = floor(displayValue) == displayValue
-//
-//
-//                    if !isInt {
-//
-//                        // if it is not we do not allow another "." to be added
-//
-//                        return
-//                    }
-//                }
-//
-//                // We add the numValue tapped to the displayLabel
-//                displayLabel.text! += numValue
-//            }
         }
     }
     
